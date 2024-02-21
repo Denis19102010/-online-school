@@ -1,4 +1,4 @@
-body,
+body,body
 html {
     /* font-family: 'Kaushan Script', cursive;
 font-family: 'Roboto', sans-serif; */
@@ -158,8 +158,14 @@ h6 {
 
 .phone__tell {}
 
-.phone__tell--footer {
-    color: rgb(34, 33, 35);
+.phone__footer{
+    color: #dedede;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.phone__footer:hover{
+    color: #eccb0b;
 }
 
 .phone__icon {
@@ -202,7 +208,7 @@ h6 {
     background: #fff;
 }
 
-.social {
+.social {   
     margin-top: 28px;
     width: 100px;
     display: flex;
@@ -318,7 +324,7 @@ h6 {
 /* section--clients */
 /* Clients */
 .section--clients {
-    background: #f5f5f5 url("../images/stories/clients-bg.jpg") center no-repeat;
+    background: #f5f5f5 url("../imges/team/14.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -716,7 +722,7 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     border: 1px solid rgb(240, 235, 235);
     padding: 5px;
@@ -729,7 +735,7 @@ h6 {
 }
 
 .footer__title {
-    margin-bottom: 10px;
+    margin-bottom: 15px 0 15px 0;
     text-align: center;
     font-size: 1.6rem;
     line-height: 1;
